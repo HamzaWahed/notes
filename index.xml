@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>246</fr:anchor><fr:addr
+type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
+text="Hamza Wahed">Hamza Wahed</fr:title><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors><fr:meta
+name="author">false</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>I am a senior at Dalhousie University, doing research in Fixed-Parameter
+    Tractable Algorithms and Fundamental Data Structures. In addition to my core
+    work, I am also deeply interested in Programming Languages, Compilers, and
+    Category Theory.</fr:p><fr:p>This website is a forest where I organize my thoughts, create notes on the
+    topics I'm currently exploring and create links between related concepts.
+    These notes are intended for my own use, so they may not always be easily
+    understood by others. You can search my notes using <fr:code>Cmd + k</fr:code>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
