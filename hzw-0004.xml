@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>247</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:addr
 type="user">hzw-0004</fr:addr><fr:route>hzw-0004.xml</fr:route><fr:title
 text="If all sets in {S}  have size at most k , then
 the greedy set cover algorithm finds an O( k)-approximation of
@@ -44,7 +44,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>263</fr:anchor><fr:addr
 type="user">hzw-0003</fr:addr><fr:route>hzw-0003.xml</fr:route><fr:title
 text="{Y} = {p(e)}{{H}_{ n }} is a feasible dual solution "><fr:tex
 display="inline"><![CDATA[\hat {y} = \frac {p(e)}{\mathcal {H}_{ n }}]]></fr:tex> is a feasible dual solution </fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link

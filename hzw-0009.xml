@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>239</fr:anchor><fr:addr
+type="user">hzw-0009</fr:addr><fr:route>hzw-0009.xml</fr:route><fr:title
+text="G  has a vertex cover of size  k iff G - (H {} I) has a vertex cover of size k - |H|"><fr:tex
+display="inline"><![CDATA[G ]]></fr:tex> has a vertex cover of size <fr:tex
+display="inline"><![CDATA[\leq  k]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[G - (H \cup {} I)]]></fr:tex> has a vertex cover of size <fr:tex
+display="inline"><![CDATA[k - |H|]]></fr:tex></fr:title><fr:taxon>Claim</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose that <fr:tex
+display="inline"><![CDATA[G - (H \cup {} I)]]></fr:tex> has a vertex cover of size at most <fr:tex
+display="inline"><![CDATA[k - |H|]]></fr:tex>
+    Since <fr:tex
+display="inline"><![CDATA[N(I) \subseteq  H]]></fr:tex>, that implies that by including all the vertices in
+    <fr:tex
+display="inline"><![CDATA[H ]]></fr:tex>, we can cover all the remaining edges in <fr:tex
+display="inline"><![CDATA[G ]]></fr:tex>.
+
+    Suppose that <fr:tex
+display="inline"><![CDATA[G ]]></fr:tex> has a vertex cover <fr:tex
+display="inline"><![CDATA[C ]]></fr:tex> of size at most <fr:tex
+display="inline"><![CDATA[k ]]></fr:tex>. As <fr:tex
+display="inline"><![CDATA[G[H,I]]]></fr:tex> has a
+    matching of size <fr:tex
+display="inline"><![CDATA[|H|]]></fr:tex>, we know that <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> must contain the endpoints of any such
+    matching to be able to cover the edges between <fr:tex
+display="inline"><![CDATA[I ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[H ]]></fr:tex>. Therefore, <fr:tex
+display="inline"><![CDATA[G - (H     \cup {} I)]]></fr:tex> must then be covered using at most <fr:tex
+display="inline"><![CDATA[k - |H|]]></fr:tex> vertices.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>241</fr:anchor><fr:addr
+type="user">hzw-0008</fr:addr><fr:route>hzw-0008.xml</fr:route><fr:title
+text="Vertex Cover via Crown Reduction">Vertex Cover via Crown Reduction</fr:title><fr:taxon>Defintion</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We use the concept of <fr:link
+type="local"
+href="hzw-000A.xml"
+addr="hzw-000A"
+title="Crowns">crowns</fr:link>.
+
+    <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>243</fr:anchor><fr:addr
+type="user">hzw-0009</fr:addr><fr:route>hzw-0009.xml</fr:route><fr:title
+text="G  has a vertex cover of size  k iff G - (H {} I) has a vertex cover of size k - |H|"><fr:tex
+display="inline"><![CDATA[G ]]></fr:tex> has a vertex cover of size <fr:tex
+display="inline"><![CDATA[\leq  k]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[G - (H \cup {} I)]]></fr:tex> has a vertex cover of size <fr:tex
+display="inline"><![CDATA[k - |H|]]></fr:tex></fr:title><fr:taxon>Claim</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose that <fr:tex
+display="inline"><![CDATA[G - (H \cup {} I)]]></fr:tex> has a vertex cover of size at most <fr:tex
+display="inline"><![CDATA[k - |H|]]></fr:tex>
+    Since <fr:tex
+display="inline"><![CDATA[N(I) \subseteq  H]]></fr:tex>, that implies that by including all the vertices in
+    <fr:tex
+display="inline"><![CDATA[H ]]></fr:tex>, we can cover all the remaining edges in <fr:tex
+display="inline"><![CDATA[G ]]></fr:tex>.
+
+    Suppose that <fr:tex
+display="inline"><![CDATA[G ]]></fr:tex> has a vertex cover <fr:tex
+display="inline"><![CDATA[C ]]></fr:tex> of size at most <fr:tex
+display="inline"><![CDATA[k ]]></fr:tex>. As <fr:tex
+display="inline"><![CDATA[G[H,I]]]></fr:tex> has a
+    matching of size <fr:tex
+display="inline"><![CDATA[|H|]]></fr:tex>, we know that <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> must contain the endpoints of any such
+    matching to be able to cover the edges between <fr:tex
+display="inline"><![CDATA[I ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[H ]]></fr:tex>. Therefore, <fr:tex
+display="inline"><![CDATA[G - (H     \cup {} I)]]></fr:tex> must then be covered using at most <fr:tex
+display="inline"><![CDATA[k - |H|]]></fr:tex> vertices.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+
+    The goal is to find a large crown <fr:tex
+display="inline"><![CDATA[(H,I) ]]></fr:tex>, so we only use the reduction rule
+    once.  shows that <fr:tex
+display="inline"><![CDATA[G - (H \cup {} I)]]></fr:tex> contains at most
+    <fr:tex
+display="inline"><![CDATA[3k ]]></fr:tex> vertices, and otherwise it's not a no-instance.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
