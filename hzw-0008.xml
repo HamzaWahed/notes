@@ -9,7 +9,7 @@ expanded="true"
 root="false"
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:addr
 type="user">hzw-0008</fr:addr><fr:route>hzw-0008.xml</fr:route><fr:title
-text="Vertex Cover via Crown Reduction">Vertex Cover via Crown Reduction</fr:title><fr:taxon>Defintion</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+text="Vertex Cover via Crown Reduction">Vertex Cover via Crown Reduction</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="hamzawahed.xml"
 addr="hamzawahed"
@@ -86,18 +86,19 @@ type="local"
 href="hamzawahed.xml"
 addr="hamzawahed"
 title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A crown structure <fr:tex
-display="inline"><![CDATA[(H,I)]]></fr:tex> looks like the following image:
+display="inline"><![CDATA[(H,I)]]></fr:tex> looks like the following image:</fr:p><fr:ul><fr:li><fr:tex
+display="inline"><![CDATA[I ]]></fr:tex> is an independent set</fr:li>
 
-    1. <fr:tex
-display="inline"><![CDATA[I ]]></fr:tex> is an independent set
-    2. <fr:tex
-display="inline"><![CDATA[N(I) \subseteq  H]]></fr:tex>
-    3. <fr:tex
-display="inline"><![CDATA[G[H,I]$ has a matching of size $|H|]]></fr:tex></fr:p><fr:figure><html:img
+  <fr:li><fr:tex
+display="inline"><![CDATA[N(I) \subseteq  H]]></fr:tex></fr:li>
+
+  <fr:li><fr:tex
+display="inline"><![CDATA[G[H,I]$ has a matching of size $|H|]]></fr:tex></fr:li></fr:ul><fr:figure><html:img
 xmlns:html="http://www.w3.org/1999/xhtml"
 src="crown.png" />
     <fr:figcaption>A crown structure</fr:figcaption></fr:figure><fr:figure><html:img
 xmlns:html="http://www.w3.org/1999/xhtml"
 src="not-crown.png" />
-    <fr:figcaption>not a crown as <fr:tex
-display="inline"><![CDATA[G[H,I]]]></fr:tex> does not have a matching of size ${|H|}</fr:figcaption></fr:figure></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+    <fr:figcaption>Not a crown as <fr:tex
+display="inline"><![CDATA[G[H,I]]]></fr:tex> does not have a matching of size <fr:tex
+display="inline"><![CDATA[|H|]]></fr:tex></fr:figcaption></fr:figure></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
