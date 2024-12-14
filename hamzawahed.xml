@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>241</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>261</fr:anchor><fr:addr
 type="user">hamzawahed</fr:addr><fr:route>hamzawahed.xml</fr:route><fr:title
 text="Hamza Wahed">Hamza Wahed</fr:title><fr:taxon>Person</fr:taxon><fr:authors /><fr:meta
 name="position">Student</fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
@@ -25,7 +25,258 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>242</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>262</fr:anchor><fr:addr
+type="user">hzw-0002</fr:addr><fr:route>hzw-0002.xml</fr:route><fr:title
+text="{C}  is an {H}_n  approximation of an
+optimal set cover"><fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex> is an <fr:tex
+display="inline"><![CDATA[\mathcal {H}_n ]]></fr:tex> approximation of an
+optimal set cover</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathcal {C}^* ]]></fr:tex> be an optimal set cover. Then, we have:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}         c(\mathcal {C}) &= \sum _{ e \in  U } p(e) \\         &= \mathcal {H}_{ n } \sum _{ e \in  U }         \frac {p(e)}{\mathcal {H}_{ n }} \\         &\leq  \mathcal {H}_{ n } \cdot  c(\mathcal {C}^*)     \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>264</fr:anchor><fr:addr
+type="user">hzw-0003</fr:addr><fr:route>hzw-0003.xml</fr:route><fr:title
+text="{Y} = {p(e)}{{H}_{ n }} is a feasible dual solution "><fr:tex
+display="inline"><![CDATA[\hat {y} = \frac {p(e)}{\mathcal {H}_{ n }}]]></fr:tex> is a feasible dual solution </fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We only need to show that the constraint
+  <fr:tex
+display="block"><![CDATA[     \sum _{ e \in  S } y_{ e } \geq  c_{ S } \quad  \forall  S \in      \mathcal {S}   ]]></fr:tex> 
+  is satisfied, as by definition, <fr:tex
+display="inline"><![CDATA[y_{ e } \geq  0 ]]></fr:tex>. We start by
+  ordering the elements <fr:tex
+display="inline"><![CDATA[\{ e_1, \ldots , e_k \}]]></fr:tex> as they are covered. 
+  We claim that <fr:tex
+display="inline"><![CDATA[p(e_{ i }) \leq  \frac {c(S)}{k-i+1} ]]></fr:tex>.</fr:p><fr:p>We show why <fr:tex
+display="inline"><![CDATA[p(e_{ i }) \leq  \frac {c(S)}{k-i+1} ]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[S' ]]></fr:tex> be
+  the set used to cover <fr:tex
+display="inline"><![CDATA[e_{ i } ]]></fr:tex>. Therefore, <fr:tex
+display="inline"><![CDATA[S' ]]></fr:tex> must be minimal
+  cost set that the algorithm found to cover <fr:tex
+display="inline"><![CDATA[e_{ i } ]]></fr:tex>. Before
+  adding <fr:tex
+display="inline"><![CDATA[S' ]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[e_{ i }, \ldots , e_{ k } ]]></fr:tex> were
+  uncovered. By defintion, if <fr:tex
+display="inline"><![CDATA[S ]]></fr:tex> were some set that covered <fr:tex
+display="inline"><![CDATA[e_{ i   } ]]></fr:tex>, then the cost of covering <fr:tex
+display="inline"><![CDATA[e_{ i } ]]></fr:tex> would be:
+  <fr:tex
+display="block"><![CDATA[     \frac {c(S)}{k-i+1}   ]]></fr:tex> 
+  where the <fr:tex
+display="inline"><![CDATA[+1 ]]></fr:tex> is because we haven't added <fr:tex
+display="inline"><![CDATA[e_{ i } ]]></fr:tex> yet. Since
+  <fr:tex
+display="inline"><![CDATA[S' ]]></fr:tex> is the minimal cost set it follows that:
+  <fr:tex
+display="block"><![CDATA[     c(S') \leq  \frac {c(S)}{k-i+1}   ]]></fr:tex></fr:p><fr:p>Using the above claim, we see that:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \sum _{ i=1 }^{ k } p(e_{ i }) &\leq  \sum _{ i=1 }^{ k } \frac {c(S)}{k-i+1} \\       &= c(S) \sum _{ i=1 }^{ k } \frac {1}{i} \\       &= c(S) \cdot  \mathcal {H}_{ k }     \end {align*}   ]]></fr:tex> 
+
+  Therefore, summing over all values of <fr:tex
+display="inline"><![CDATA[\hat {y} ]]></fr:tex> gives us:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \sum _{ i=1 }^{ k } y_{ e_i } &= \sum _{ i=1 }^{ k } p(e_{ i })       \frac {1}{\mathcal {H}_{ n }} \\       &\leq  \sum _{ i=1 }^{ k } c(S) \frac {\mathcal {H}_{ k       }}{\mathcal {H}_{ n }} \\       &\leq  c(S)     \end {align*}   ]]></fr:tex> 
+
+  where <fr:tex
+display="inline"><![CDATA[\frac {\mathcal {H}_{ k }}{\mathcal {H}_{ n }} \leq  1 ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>266</fr:anchor><fr:addr
+type="user">hzw-0005</fr:addr><fr:route>hzw-0005.xml</fr:route><fr:title
+text="Dual Fitting">Dual Fitting</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We know that the optimal solution of the LP relaxation of an ILP is 
+  a lower bound of the optimal solution of the ILP. We also know that
+  the objective function value of any dual solution is at most the
+  optimal solution of the primal LP. Therefore, we have:
+  <fr:tex
+display="block"><![CDATA[     \text {obj(dual)} \leq  \text {OPT(LP relaxation)} \leq  \text {OPT(ILP)}   ]]></fr:tex> 
+
+  Given an integral primal solution <fr:tex
+display="inline"><![CDATA[P ]]></fr:tex>, the goal is to find a
+  feasible dual solution <fr:tex
+display="inline"><![CDATA[D ]]></fr:tex> such that:
+  <fr:tex
+display="block"><![CDATA[     \text {obj(P)} \leq  c \cdot  \text {obj(D)}   ]]></fr:tex> 
+  That is, obj(P) and obj(D) differ by <fr:tex
+display="inline"><![CDATA[c ]]></fr:tex> as shown in this
+  <fr:link
+type="external"
+href="dual-fit.png">figure</fr:link></fr:p><fr:figure><fr:figcaption>dual fitting</fr:figcaption></fr:figure></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>268</fr:anchor><fr:addr
+type="user">hzw-0004</fr:addr><fr:route>hzw-0004.xml</fr:route><fr:title
+text="If all sets in {S}  have size at most k , then
+the greedy set cover algorithm finds an O( k)-approximation of
+an optimal set cover">If all sets in <fr:tex
+display="inline"><![CDATA[\mathcal {S} ]]></fr:tex> have size at most <fr:tex
+display="inline"><![CDATA[k ]]></fr:tex>, then
+the greedy set cover algorithm finds an <fr:tex
+display="inline"><![CDATA[O(\lg  k)]]></fr:tex>-approximation of
+an optimal set cover</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The proof follows immediately from <fr:link
+type="local"
+href="hzw-0003.xml"
+addr="hzw-0003"
+title="{Y} = {p(e)}{{H}_{ n }} is a feasible dual solution ">Lemma</fr:link> by substituting
+  <fr:tex
+display="inline"><![CDATA[\mathcal {H}_{ k } ]]></fr:tex> instead of <fr:tex
+display="inline"><![CDATA[\mathcal {H}_{ n } ]]></fr:tex>, and both
+  numerator and denominator cancel out to give <fr:tex
+display="inline"><![CDATA[1 ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>270</fr:anchor><fr:addr
+type="user">hzw-0006</fr:addr><fr:route>hzw-0006.xml</fr:route><fr:title
+text="Primal Dual Set Cover computes an f -approximation of an
+optimal set cover">Primal Dual Set Cover computes an <fr:tex
+display="inline"><![CDATA[f ]]></fr:tex>-approximation of an
+optimal set cover</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[f ]]></fr:tex> is defined to be the maximum number of sets that an element is
+  contained in. In other words, 
+  <fr:tex
+display="block"><![CDATA[     f = \max _{ e \in  U } |\{ S \in  \mathcal {S} | e \in  S \}|   ]]></fr:tex> 
+  We use primal dual schema to obtain an algorithm for the set cover
+  problem. The primal schema is unchanged. Note that the primal is an
+  ILP, so <fr:tex
+display="inline"><![CDATA[x_{ S } \in  \{ 0,1 \} ]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[x_{ S } = 1 ]]></fr:tex>, then we
+  require the set <fr:tex
+display="inline"><![CDATA[S ]]></fr:tex> to be "tight", that is, it has no remaining
+  capacity. 
+  <fr:tex
+display="block"><![CDATA[     x_{ S } = 0 \text { or } \sum _{ e \in  U } y_{ e } \leq  w(S)   ]]></fr:tex> 
+  The dual schema is updated as follows:
+  <fr:tex
+display="block"><![CDATA[     y_{ e } = 0 \text { or } \sum _{ e \in  S } x_{ S } \leq  f    ]]></fr:tex> 
+
+  Note that <fr:tex
+display="inline"><![CDATA[\sum _{ e \in  S } x_{ S } \leq  f]]></fr:tex> is always satisfied,
+  since if <fr:tex
+display="inline"><![CDATA[e ]]></fr:tex> occurs in all sets, then <fr:tex
+display="inline"><![CDATA[x_{ S } = 1 ]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[S   \in  \mathcal {S}]]></fr:tex>, but that can only be equal to <fr:tex
+display="inline"><![CDATA[f ]]></fr:tex> as per the
+  definition.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>253</fr:anchor><fr:addr
+type="user">hzw-0007</fr:addr><fr:route>hzw-0007.xml</fr:route><fr:title
+text="Primal Dual Schema Algorithm for Set Cover">Primal Dual Schema Algorithm for Set Cover</fr:title><fr:taxon>Algorithm</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Start by initialzing <fr:tex
+display="inline"><![CDATA[\mathcal {C} = \emptyset  ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\hat {y}_{ e }   = 0 ]]></fr:tex>
+  for all <fr:tex
+display="inline"><![CDATA[e \in  U ]]></fr:tex>. While there exists an element <fr:tex
+display="inline"><![CDATA[e \in  U ]]></fr:tex> such
+  that <fr:tex
+display="inline"><![CDATA[e ]]></fr:tex> is not covered by <fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex>, we let <fr:tex
+display="inline"><![CDATA[\delta  ]]></fr:tex> be:
+  <fr:tex
+display="block"><![CDATA[     \delta  = \min _{ e \in  S } \left (w(S) - \sum _{ f \in  S } \hat {y}_{ f }     \right )   ]]></fr:tex> 
+  We know that <fr:tex
+display="inline"><![CDATA[w(S) \geq  \sum _{ f \in  S } \hat {y}_{ f } ]]></fr:tex> as
+  <fr:tex
+display="inline"><![CDATA[\hat {y} ]]></fr:tex> is currently a feasible dual solution. Then, we update
+  <fr:tex
+display="inline"><![CDATA[\hat {y}_{ e } ]]></fr:tex> to be:
+  <fr:tex
+display="block"><![CDATA[     \hat {y}_{ e } = \hat {y}_{ e } + \delta    ]]></fr:tex> 
+  Once all elements of <fr:tex
+display="inline"><![CDATA[U ]]></fr:tex> are covered by <fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex>, we return
+  <fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>272</fr:anchor><fr:addr
+type="user">hzw-0007</fr:addr><fr:route>hzw-0007.xml</fr:route><fr:title
+text="Primal Dual Schema Algorithm for Set Cover">Primal Dual Schema Algorithm for Set Cover</fr:title><fr:taxon>Algorithm</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Start by initialzing <fr:tex
+display="inline"><![CDATA[\mathcal {C} = \emptyset  ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\hat {y}_{ e }   = 0 ]]></fr:tex>
+  for all <fr:tex
+display="inline"><![CDATA[e \in  U ]]></fr:tex>. While there exists an element <fr:tex
+display="inline"><![CDATA[e \in  U ]]></fr:tex> such
+  that <fr:tex
+display="inline"><![CDATA[e ]]></fr:tex> is not covered by <fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex>, we let <fr:tex
+display="inline"><![CDATA[\delta  ]]></fr:tex> be:
+  <fr:tex
+display="block"><![CDATA[     \delta  = \min _{ e \in  S } \left (w(S) - \sum _{ f \in  S } \hat {y}_{ f }     \right )   ]]></fr:tex> 
+  We know that <fr:tex
+display="inline"><![CDATA[w(S) \geq  \sum _{ f \in  S } \hat {y}_{ f } ]]></fr:tex> as
+  <fr:tex
+display="inline"><![CDATA[\hat {y} ]]></fr:tex> is currently a feasible dual solution. Then, we update
+  <fr:tex
+display="inline"><![CDATA[\hat {y}_{ e } ]]></fr:tex> to be:
+  <fr:tex
+display="block"><![CDATA[     \hat {y}_{ e } = \hat {y}_{ e } + \delta    ]]></fr:tex> 
+  Once all elements of <fr:tex
+display="inline"><![CDATA[U ]]></fr:tex> are covered by <fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex>, we return
+  <fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>274</fr:anchor><fr:addr
 type="user">hzw-0001</fr:addr><fr:route>hzw-0001.xml</fr:route><fr:title
 text="Nix Flakes">Nix Flakes</fr:title><fr:taxon>Concept</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
@@ -38,7 +289,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>244</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>276</fr:anchor><fr:addr
 type="user">index</fr:addr><fr:route>index.xml</fr:route><fr:title
 text="Hamza Wahed">Hamza Wahed</fr:title><fr:authors><fr:author><fr:link
 type="local"

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>255</fr:anchor><fr:addr
+type="user">hzw-0007</fr:addr><fr:route>hzw-0007.xml</fr:route><fr:title
+text="Primal Dual Schema Algorithm for Set Cover">Primal Dual Schema Algorithm for Set Cover</fr:title><fr:taxon>Algorithm</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Start by initialzing <fr:tex
+display="inline"><![CDATA[\mathcal {C} = \emptyset  ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\hat {y}_{ e }   = 0 ]]></fr:tex>
+  for all <fr:tex
+display="inline"><![CDATA[e \in  U ]]></fr:tex>. While there exists an element <fr:tex
+display="inline"><![CDATA[e \in  U ]]></fr:tex> such
+  that <fr:tex
+display="inline"><![CDATA[e ]]></fr:tex> is not covered by <fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex>, we let <fr:tex
+display="inline"><![CDATA[\delta  ]]></fr:tex> be:
+  <fr:tex
+display="block"><![CDATA[     \delta  = \min _{ e \in  S } \left (w(S) - \sum _{ f \in  S } \hat {y}_{ f }     \right )   ]]></fr:tex> 
+  We know that <fr:tex
+display="inline"><![CDATA[w(S) \geq  \sum _{ f \in  S } \hat {y}_{ f } ]]></fr:tex> as
+  <fr:tex
+display="inline"><![CDATA[\hat {y} ]]></fr:tex> is currently a feasible dual solution. Then, we update
+  <fr:tex
+display="inline"><![CDATA[\hat {y}_{ e } ]]></fr:tex> to be:
+  <fr:tex
+display="block"><![CDATA[     \hat {y}_{ e } = \hat {y}_{ e } + \delta    ]]></fr:tex> 
+  Once all elements of <fr:tex
+display="inline"><![CDATA[U ]]></fr:tex> are covered by <fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex>, we return
+  <fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>257</fr:anchor><fr:addr
+type="user">hzw-0006</fr:addr><fr:route>hzw-0006.xml</fr:route><fr:title
+text="Primal Dual Set Cover computes an f -approximation of an
+optimal set cover">Primal Dual Set Cover computes an <fr:tex
+display="inline"><![CDATA[f ]]></fr:tex>-approximation of an
+optimal set cover</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:tex
+display="inline"><![CDATA[f ]]></fr:tex> is defined to be the maximum number of sets that an element is
+  contained in. In other words, 
+  <fr:tex
+display="block"><![CDATA[     f = \max _{ e \in  U } |\{ S \in  \mathcal {S} | e \in  S \}|   ]]></fr:tex> 
+  We use primal dual schema to obtain an algorithm for the set cover
+  problem. The primal schema is unchanged. Note that the primal is an
+  ILP, so <fr:tex
+display="inline"><![CDATA[x_{ S } \in  \{ 0,1 \} ]]></fr:tex>. If <fr:tex
+display="inline"><![CDATA[x_{ S } = 1 ]]></fr:tex>, then we
+  require the set <fr:tex
+display="inline"><![CDATA[S ]]></fr:tex> to be "tight", that is, it has no remaining
+  capacity. 
+  <fr:tex
+display="block"><![CDATA[     x_{ S } = 0 \text { or } \sum _{ e \in  U } y_{ e } \leq  w(S)   ]]></fr:tex> 
+  The dual schema is updated as follows:
+  <fr:tex
+display="block"><![CDATA[     y_{ e } = 0 \text { or } \sum _{ e \in  S } x_{ S } \leq  f    ]]></fr:tex> 
+
+  Note that <fr:tex
+display="inline"><![CDATA[\sum _{ e \in  S } x_{ S } \leq  f]]></fr:tex> is always satisfied,
+  since if <fr:tex
+display="inline"><![CDATA[e ]]></fr:tex> occurs in all sets, then <fr:tex
+display="inline"><![CDATA[x_{ S } = 1 ]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[S   \in  \mathcal {S}]]></fr:tex>, but that can only be equal to <fr:tex
+display="inline"><![CDATA[f ]]></fr:tex> as per the
+  definition.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>253</fr:anchor><fr:addr
+type="user">hzw-0007</fr:addr><fr:route>hzw-0007.xml</fr:route><fr:title
+text="Primal Dual Schema Algorithm for Set Cover">Primal Dual Schema Algorithm for Set Cover</fr:title><fr:taxon>Algorithm</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Start by initialzing <fr:tex
+display="inline"><![CDATA[\mathcal {C} = \emptyset  ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\hat {y}_{ e }   = 0 ]]></fr:tex>
+  for all <fr:tex
+display="inline"><![CDATA[e \in  U ]]></fr:tex>. While there exists an element <fr:tex
+display="inline"><![CDATA[e \in  U ]]></fr:tex> such
+  that <fr:tex
+display="inline"><![CDATA[e ]]></fr:tex> is not covered by <fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex>, we let <fr:tex
+display="inline"><![CDATA[\delta  ]]></fr:tex> be:
+  <fr:tex
+display="block"><![CDATA[     \delta  = \min _{ e \in  S } \left (w(S) - \sum _{ f \in  S } \hat {y}_{ f }     \right )   ]]></fr:tex> 
+  We know that <fr:tex
+display="inline"><![CDATA[w(S) \geq  \sum _{ f \in  S } \hat {y}_{ f } ]]></fr:tex> as
+  <fr:tex
+display="inline"><![CDATA[\hat {y} ]]></fr:tex> is currently a feasible dual solution. Then, we update
+  <fr:tex
+display="inline"><![CDATA[\hat {y}_{ e } ]]></fr:tex> to be:
+  <fr:tex
+display="block"><![CDATA[     \hat {y}_{ e } = \hat {y}_{ e } + \delta    ]]></fr:tex> 
+  Once all elements of <fr:tex
+display="inline"><![CDATA[U ]]></fr:tex> are covered by <fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex>, we return
+  <fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

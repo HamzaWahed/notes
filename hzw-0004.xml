@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>247</fr:anchor><fr:addr
+type="user">hzw-0004</fr:addr><fr:route>hzw-0004.xml</fr:route><fr:title
+text="If all sets in {S}  have size at most k , then
+the greedy set cover algorithm finds an O( k)-approximation of
+an optimal set cover">If all sets in <fr:tex
+display="inline"><![CDATA[\mathcal {S} ]]></fr:tex> have size at most <fr:tex
+display="inline"><![CDATA[k ]]></fr:tex>, then
+the greedy set cover algorithm finds an <fr:tex
+display="inline"><![CDATA[O(\lg  k)]]></fr:tex>-approximation of
+an optimal set cover</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The proof follows immediately from <fr:link
+type="local"
+href="hzw-0003.xml"
+addr="hzw-0003"
+title="{Y} = {p(e)}{{H}_{ n }} is a feasible dual solution ">Lemma</fr:link> by substituting
+  <fr:tex
+display="inline"><![CDATA[\mathcal {H}_{ k } ]]></fr:tex> instead of <fr:tex
+display="inline"><![CDATA[\mathcal {H}_{ n } ]]></fr:tex>, and both
+  numerator and denominator cancel out to give <fr:tex
+display="inline"><![CDATA[1 ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:addr
+type="user">hzw-0003</fr:addr><fr:route>hzw-0003.xml</fr:route><fr:title
+text="{Y} = {p(e)}{{H}_{ n }} is a feasible dual solution "><fr:tex
+display="inline"><![CDATA[\hat {y} = \frac {p(e)}{\mathcal {H}_{ n }}]]></fr:tex> is a feasible dual solution </fr:title><fr:taxon>Lemma</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We only need to show that the constraint
+  <fr:tex
+display="block"><![CDATA[     \sum _{ e \in  S } y_{ e } \geq  c_{ S } \quad  \forall  S \in      \mathcal {S}   ]]></fr:tex> 
+  is satisfied, as by definition, <fr:tex
+display="inline"><![CDATA[y_{ e } \geq  0 ]]></fr:tex>. We start by
+  ordering the elements <fr:tex
+display="inline"><![CDATA[\{ e_1, \ldots , e_k \}]]></fr:tex> as they are covered. 
+  We claim that <fr:tex
+display="inline"><![CDATA[p(e_{ i }) \leq  \frac {c(S)}{k-i+1} ]]></fr:tex>.</fr:p><fr:p>We show why <fr:tex
+display="inline"><![CDATA[p(e_{ i }) \leq  \frac {c(S)}{k-i+1} ]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[S' ]]></fr:tex> be
+  the set used to cover <fr:tex
+display="inline"><![CDATA[e_{ i } ]]></fr:tex>. Therefore, <fr:tex
+display="inline"><![CDATA[S' ]]></fr:tex> must be minimal
+  cost set that the algorithm found to cover <fr:tex
+display="inline"><![CDATA[e_{ i } ]]></fr:tex>. Before
+  adding <fr:tex
+display="inline"><![CDATA[S' ]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[e_{ i }, \ldots , e_{ k } ]]></fr:tex> were
+  uncovered. By defintion, if <fr:tex
+display="inline"><![CDATA[S ]]></fr:tex> were some set that covered <fr:tex
+display="inline"><![CDATA[e_{ i   } ]]></fr:tex>, then the cost of covering <fr:tex
+display="inline"><![CDATA[e_{ i } ]]></fr:tex> would be:
+  <fr:tex
+display="block"><![CDATA[     \frac {c(S)}{k-i+1}   ]]></fr:tex> 
+  where the <fr:tex
+display="inline"><![CDATA[+1 ]]></fr:tex> is because we haven't added <fr:tex
+display="inline"><![CDATA[e_{ i } ]]></fr:tex> yet. Since
+  <fr:tex
+display="inline"><![CDATA[S' ]]></fr:tex> is the minimal cost set it follows that:
+  <fr:tex
+display="block"><![CDATA[     c(S') \leq  \frac {c(S)}{k-i+1}   ]]></fr:tex></fr:p><fr:p>Using the above claim, we see that:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \sum _{ i=1 }^{ k } p(e_{ i }) &\leq  \sum _{ i=1 }^{ k } \frac {c(S)}{k-i+1} \\       &= c(S) \sum _{ i=1 }^{ k } \frac {1}{i} \\       &= c(S) \cdot  \mathcal {H}_{ k }     \end {align*}   ]]></fr:tex> 
+
+  Therefore, summing over all values of <fr:tex
+display="inline"><![CDATA[\hat {y} ]]></fr:tex> gives us:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}       \sum _{ i=1 }^{ k } y_{ e_i } &= \sum _{ i=1 }^{ k } p(e_{ i })       \frac {1}{\mathcal {H}_{ n }} \\       &\leq  \sum _{ i=1 }^{ k } c(S) \frac {\mathcal {H}_{ k       }}{\mathcal {H}_{ n }} \\       &\leq  c(S)     \end {align*}   ]]></fr:tex> 
+
+  where <fr:tex
+display="inline"><![CDATA[\frac {\mathcal {H}_{ k }}{\mathcal {H}_{ n }} \leq  1 ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

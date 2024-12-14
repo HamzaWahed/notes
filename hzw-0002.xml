@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>239</fr:anchor><fr:addr
+type="user">hzw-0002</fr:addr><fr:route>hzw-0002.xml</fr:route><fr:title
+text="{C}  is an {H}_n  approximation of an
+optimal set cover"><fr:tex
+display="inline"><![CDATA[\mathcal {C} ]]></fr:tex> is an <fr:tex
+display="inline"><![CDATA[\mathcal {H}_n ]]></fr:tex> approximation of an
+optimal set cover</fr:title><fr:taxon>Corollary</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathcal {C}^* ]]></fr:tex> be an optimal set cover. Then, we have:
+  <fr:tex
+display="block"><![CDATA[     \begin {align*}         c(\mathcal {C}) &= \sum _{ e \in  U } p(e) \\         &= \mathcal {H}_{ n } \sum _{ e \in  U }         \frac {p(e)}{\mathcal {H}_{ n }} \\         &\leq  \mathcal {H}_{ n } \cdot  c(\mathcal {C}^*)     \end {align*}   ]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>

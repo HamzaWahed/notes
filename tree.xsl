@@ -20,6 +20,7 @@
           </xsl:if>
         </script>
         <script type="module" src="forester.js"></script>
+        <script src="reload.js"></script>
         <title>
           <xsl:value-of select="/f:tree/f:frontmatter/f:title[@text]" />
         </title>

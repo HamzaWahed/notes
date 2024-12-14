@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>245</fr:anchor><fr:addr
+type="user">hzw-0005</fr:addr><fr:route>hzw-0005.xml</fr:route><fr:title
+text="Dual Fitting">Dual Fitting</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="hamzawahed.xml"
+addr="hamzawahed"
+title="Hamza Wahed">Hamza Wahed</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We know that the optimal solution of the LP relaxation of an ILP is 
+  a lower bound of the optimal solution of the ILP. We also know that
+  the objective function value of any dual solution is at most the
+  optimal solution of the primal LP. Therefore, we have:
+  <fr:tex
+display="block"><![CDATA[     \text {obj(dual)} \leq  \text {OPT(LP relaxation)} \leq  \text {OPT(ILP)}   ]]></fr:tex> 
+
+  Given an integral primal solution <fr:tex
+display="inline"><![CDATA[P ]]></fr:tex>, the goal is to find a
+  feasible dual solution <fr:tex
+display="inline"><![CDATA[D ]]></fr:tex> such that:
+  <fr:tex
+display="block"><![CDATA[     \text {obj(P)} \leq  c \cdot  \text {obj(D)}   ]]></fr:tex> 
+  That is, obj(P) and obj(D) differ by <fr:tex
+display="inline"><![CDATA[c ]]></fr:tex> as shown in this
+  <fr:link
+type="external"
+href="dual-fit.png">figure</fr:link></fr:p><fr:figure><fr:figcaption>dual fitting</fr:figcaption></fr:figure></fr:mainmatter><fr:backmatter /></fr:tree>
