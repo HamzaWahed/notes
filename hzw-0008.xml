@@ -93,7 +93,8 @@ display="inline"><![CDATA[I ]]></fr:tex> is an independent set</fr:li>
 display="inline"><![CDATA[N(I) \subseteq  H]]></fr:tex></fr:li>
 
   <fr:li><fr:tex
-display="inline"><![CDATA[G[H,I]$ has a matching of size $|H|]]></fr:tex></fr:li></fr:ul><fr:figure><html:img
+display="inline"><![CDATA[G[H,I]]]></fr:tex> has a matching of size <fr:tex
+display="inline"><![CDATA[|H|]]></fr:tex></fr:li></fr:ul><fr:figure><html:img
 xmlns:html="http://www.w3.org/1999/xhtml"
 src="crown.png" />
     <fr:figcaption>A crown structure</fr:figcaption></fr:figure><fr:figure><html:img
